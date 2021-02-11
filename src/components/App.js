@@ -159,7 +159,7 @@ export default function App() {
               noWrap
               className={classes.title}
             >
-              Engineering Tooling Issues
+              Tooling Issues
             </Typography>
             <AppMenu />
             <AvatarMenu />
