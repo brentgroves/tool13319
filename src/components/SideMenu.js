@@ -20,9 +20,9 @@ export default function SideMenu(params) {
     // Push('/toollife');
     alert(`Tool Life Issues`);
   };
-  const handleMachiningTimes = () => {
+  const handleRegrindHistory = () => {
     // Push('/machining_times');
-    alert(`Machining times issues`);
+    alert(`Regrind History`);
   };
   const handleSubscribeEmail = () => {
     // Push('/SubscribeEmail');
@@ -38,11 +38,11 @@ export default function SideMenu(params) {
         </ListItemIcon>
         <ListItemText primary="Tool Life" />
       </ListItem>
-      <ListItem button onClick={handleMachiningTimes}>
+      <ListItem button onClick={handleRegrindHistory}>
         <ListItemIcon>
           <AirplanemodeActiveIcon />
         </ListItemIcon>
-        <ListItemText primary="Machining Time" />
+        <ListItemText primary="Regrinds" />
       </ListItem>
       {/* <ListItem button onClick={handleIssuesPlant8}>
         <ListItemIcon>
